@@ -4,80 +4,75 @@
   box-sizing: border-box;
   
 }
-  
-main {
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 300;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-button {
-  background-color: hsl(0, 0%, 95%);
-  padding: 14px 30px 14px 30px; 
-  border-radius: 22px;
-  border: none;
-  color: hsl(31, 77%, 52%);
-
-  font-family: 'Lexend Deca', sans-serif;
+  
+main {
+  max-width: 18rem;
 }
-#suv-button {
+
+a {
+  background-color: hsl(0, 0%, 95%);
+  padding: 10px 25px 10px 25px;
+  border-radius: 22px;
+  
+  text-decoration: none;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 0.94rem;
+  font-weight: 400;
+}
+
+.orange {
+  color: hsl(31, 77%, 52%);
+}
+
+.cyan {
   color: hsl(184, 100%, 22%);
 }
 
-#luxury-button {
+.cyan-dark {
   color: hsl(179, 100%, 13%);
 }
 
-h1 {
-padding: 25px 0px 25px 0px;
-color: hsla(0, 0%, 100%, 0.75);
-font-family: 'Big Shoulders Display', cursive;
-font-weight: 700;
+h2 {
+  padding: 25px 0px 25px 0px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 p {
   color: hsl(0, 0%, 95%);
-  font-size: 13px;
-  font-family: 'Lexend Deca', sans-serif;
-  font-weight: 300;
-  padding: 0 23px 25px 0;
-  margin: 0;
+  font-size: 0.94rem;
   line-height: 1.5;
+  padding-bottom: 30px;
 }
 
 
-#sedans {
+.sedans {
   background-color: hsl(31, 77%, 52%);
-  height: 407px;
-  width: 300px;
-  margin-top: 90px;
   border-radius: 7px 7px 0 0;
-  padding-left: 45px;
-  padding-right: 45px;
-  padding-top: 45px;
+  margin-top: 50px;
 }
 
-#suvs {
+.suvs {
   background-color: hsl(184, 100%, 22%);
-  height: 407px;
-  width: 300px;
-  padding-left: 45px;
-  padding-right: 45px;
-  padding-top: 45px;
-  line-height: 1.5;
 }
 
-#luxury {
+.luxury {
   background-color: hsl(179, 100%, 13%);
-  height: 407px;
-  width: 300px;
   border-radius: 0 0 10px 10px;
   margin-bottom: 50px;
-  padding-left: 45px;
-  padding-right: 45px;
-  padding-top: 45px;
 }
 
-/* font-family: 'Big Shoulders Display', cursive; 
-font-family: 'Lexend Deca', sans-serif;/
+.paddings {
+  padding: 35px;
+}
